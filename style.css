@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 14px;
+  }
+  
+  #component {
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+  }
+  
+  .card-c {
+    border: none;
+    border-radius: 20px;
+    margin: 100px 250px;
+    background-color: hsl(0, 0%, 100%);
+  }
+  
+  .image-prod {
+    border-radius: 20px 0 0 20px;
+  }
+  
+  .image-mob {
+    display: none;
+  }
+  
+  .texts {
+    padding: 50px 20px;
+  }
+  
+  .perf {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 20px 0;
+  }
+  
+  .gab {
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    margin: 30px 0 15px 0;
+  }
+  
+  .parag {
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 60px;
+    line-height: 28px;
+  }
+  
+  .price {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px;
+  }
+  
+  .price h2 {
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+  }
+  
+  .price s {
+    font-weight: 300;
+    font-size: 18px;
+  }
+  
+  .button {
+    background-color: hsl(158, 36%, 37%);
+    margin: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: hsl(158, 38%, 23%);
+    color: #fff;
+  }
+  
+  .button a {
+    color: #fff;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: .5px;
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .card-c {
+      margin: 50px 20px;
+    }
+  
+    .image-prod {
+      border-radius: 20px;
+      display: none;
+    }
+  
+    .image-mob {
+      display: block;
+      margin: 0 auto;
+      border-radius: 20px 20px 0 0;
+      width: 100%;
+    }
+  
+    .texts {
+      padding: 30px 20px;
+    }
+  
+    .parag {
+      margin-right: 0;
+    }
+  }
+  
